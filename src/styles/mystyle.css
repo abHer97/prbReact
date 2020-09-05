@@ -1,0 +1,75 @@
+body {
+	background: #e2e8f0;
+	font-size: 16px;
+}
+
+a:hover {
+	cursor: pointer;
+}
+
+button:active {
+	transform: scale(0.95);
+}
+#root {
+	min-height: 100vh;
+	display: flex;
+	flex-direction: column;
+}
+
+.input-prefix {
+	position: absolute;
+	bottom: 9px;
+	left: 10px;
+}
+
+.tblProductores {
+	max-height: 370px;
+}
+
+.my-table {
+	border-collapse: collapse;
+	border: 1px solid green;
+}
+
+.my-table th {
+	border: 1px solid black;
+}
+
+.my-table td {
+	border: 1px solid black;
+}
+
+.cEliminar {
+	min-width: 30px;
+}
+tbody tr:hover {
+	cursor: pointer;
+}
+.modal {
+	background: rgb(255, 255, 255);
+	border: 1px solid rgb(204, 204, 204);
+	border-radius: 4px;
+	overflow: auto;
+	position: absolute;
+	bottom: 40px;
+	left: 25%;
+	right: 0;
+	top: 40px;
+	outline: none;
+	padding: 20px;
+	width: 50%;
+	height: 15rem;
+	z-index: 999;
+}
+.ReactModal__Overlay {
+	opacity: 0;
+	transition: opacity 300ms ease-in-out;
+}
+
+.ReactModal__Overlay--after-open {
+	opacity: 1;
+}
+
+.ReactModal__Overlay--before-close {
+	opacity: 0;
+}
