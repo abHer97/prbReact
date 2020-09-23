@@ -3,5 +3,5 @@ import ReactDOM from 'react-dom';
 
 import './index.css';
 import './styles/mystyle.css';
-import { App } from './App';
-ReactDOM.render(<App />, document.getElementById('root'));
+import { AppRouter } from './components/AppRouter';
+ReactDOM.render(<AppRouter />, document.getElementById('root'));
